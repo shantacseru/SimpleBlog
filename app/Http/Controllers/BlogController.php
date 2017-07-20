@@ -17,11 +17,11 @@ class BlogController extends Controller
 	       
 			if(!is_null($id)){
 	           $show = Quote::where('id', $id)->first();
-               $show = br2nl($show);
+              
 			}
 			else{
 				 
-                $show = br2nl($quotes[0]); 
+                $show = $quotes[0]; 
 			}
 	    return view('blog/blog', ['quotes'=>$quotes, 'show'=>$show]);
 			
