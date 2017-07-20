@@ -1,0 +1,30 @@
+@import url(http://fonts.googleapis.com/css?family=Merriweather);
+
+html, body {
+  font-family: 'Merriweather', sans-serif;
+}
+
+
+.MakaleYazariAdi{
+    line-height:34px;
+    
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 20px;
+
+}
+ .alert{
+ 	text-align: center; 
+ 	 
+ }
+
+.alert ul{
+	list-style-type: none;
+}
+#BegeniButonlari{
+    float:right;
+    margin-top:15px;
+}
+
+ .delete_anchor{
+ 	text-align: center;
+ }
